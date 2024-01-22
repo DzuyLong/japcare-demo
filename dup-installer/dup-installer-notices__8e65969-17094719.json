@@ -1,0 +1,80 @@
+{
+    "globalData": {
+        "uniqueCountId": 2
+    },
+    "nextStep": [],
+    "finalReport": {
+        "__auto_unique_id__1": {
+            "shortMsg": "WP Rocket has been deactivated",
+            "level": 1,
+            "longMsg": "",
+            "sections": [
+                "plugins"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "__auto_unique_id__2": {
+            "shortMsg": "Activate WP Rocket after you login.",
+            "level": 1,
+            "longMsg": "",
+            "sections": [
+                "plugins"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "def"
+        },
+        "wptest_notice_index_php": {
+            "shortMsg": "Warnings or notices on WordPress front-end tests!",
+            "level": 1,
+            "longMsg": "SCRIPT FILE TEST: C:\/xampp\/htdocs\/wordpress64\/index.php\n\nE_DEPRECATED Required parameter $data follows optional parameter $option\n\tFILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\includes\\wpshapere.class.php[638]\n\t--- TRACE ---\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\wpshapere.php[86]\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-settings.php[473]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-config.php[79]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-load.php[50]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-blog-header.php[13]\n\tFUNCTION: require                       FILE: C:\\xampp\\htdocs\\wordpress64\\index.php[17]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\wp_test_script_af7b79e-17094719.php[117]\n\n-----\n\nFor solutions to these issues see the online FAQs \nhttps:\/\/duplicator.com\/knowledge-base\/ \n\nE_DEPRECATED Required parameter $menu_count follows optional parameter $admin_submenu_slug\n\tFILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\includes\\wpsmenu.class.php[974]\n\t--- TRACE ---\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\wpshapere.php[89]\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-settings.php[473]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-config.php[79]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-load.php[50]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-blog-header.php[13]\n\tFUNCTION: require                       FILE: C:\\xampp\\htdocs\\wordpress64\\index.php[17]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\wp_test_script_af7b79e-17094719.php[117]\n\n-----\n\nFor solutions to these issues see the online FAQs \nhttps:\/\/duplicator.com\/knowledge-base\/ \n\n",
+            "sections": [
+                "general"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "pre"
+        },
+        "wptest_notice_wp_login_php": {
+            "shortMsg": "Warnings or notices on WordPress backend tests!",
+            "level": 1,
+            "longMsg": "SCRIPT FILE TEST: C:\/xampp\/htdocs\/wordpress64\/wp-login.php\n\nE_DEPRECATED Required parameter $data follows optional parameter $option\n\tFILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\includes\\wpshapere.class.php[638]\n\t--- TRACE ---\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\wpshapere.php[86]\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-settings.php[473]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-config.php[79]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-load.php[50]\n\tFUNCTION: require                       FILE: C:\\xampp\\htdocs\\wordpress64\\wp-login.php[12]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\wp_test_script_af7b79e-17094719.php[117]\n\n-----\n\nFor solutions to these issues see the online FAQs \nhttps:\/\/duplicator.com\/knowledge-base\/ \n\nE_DEPRECATED Required parameter $menu_count follows optional parameter $admin_submenu_slug\n\tFILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\includes\\wpsmenu.class.php[974]\n\t--- TRACE ---\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\plugins\\WPShapere\\wpshapere.php[89]\n\tFUNCTION: include_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-settings.php[473]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-config.php[79]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-load.php[50]\n\tFUNCTION: require                       FILE: C:\\xampp\\htdocs\\wordpress64\\wp-login.php[12]\n\tFUNCTION: require_once                  FILE: C:\\xampp\\htdocs\\wordpress64\\wp-content\\wp_test_script_af7b79e-17094719.php[117]\n\n-----\n\nFor solutions to these issues see the online FAQs \nhttps:\/\/duplicator.com\/knowledge-base\/ \n\n",
+            "sections": [
+                "general"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": false,
+            "longMsgMode": "pre"
+        },
+        "wp-config-changes": {
+            "shortMsg": "wp-config.php changes",
+            "level": 0,
+            "longMsg": "        <span class=\"link-style dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-3-1705485406-7937\" >wp-config.php changes<\/span>\n        <div id=\"dup-html-id-3-1705485406-7937\" class=\"dub-ligthbox-content close\">\n            <div class=\"wrapper\" >\n                <h2 class=\"title\" >WP-CONFIG.PHP COMPARE<\/h2>\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original wp-config.php<\/b><pre>&lt;?php\ndefine( 'WP_CACHE', true ); \/\/ Added by WP Rocket\n\n\/**\n * The base configuration for WordPress\n *\n * The wp-config.php creation script uses this file during the\n * installation. You don't have to use the web site, you can\n * copy this file to &quot;wp-config.php&quot; and fill in the values.\n *\n * This file contains the following configurations:\n *\n * * MySQL settings\n * * Secret keys\n * * Database table prefix\n * * ABSPATH\n *\n * @link https:\/\/wordpress.org\/support\/article\/editing-wp-config-php\/\n *\n * @package WordPress\n *\/\n\n\/\/ ** MySQL settings - You can get this info from your web host ** \/\/\n\/** The name of the database for WordPress *\/\ndefine( 'DB_NAME', '**OBSCURED**' );\n\n\/** MySQL database username *\/\ndefine( 'DB_USER', '**OBSCURED**' );\n\n\/** MySQL database password *\/\ndefine( 'DB_PASSWORD', '**OBSCURED**' );\n\n\/** MySQL hostname *\/\ndefine( 'DB_HOST', '**OBSCURED**' );\n\n\/** Database Charset to use in creating database tables. *\/\ndefine( 'DB_CHARSET', 'utf8' );\n\n\/** The Database Collate type. Don't change this if in doubt. *\/\ndefine( 'DB_COLLATE', '' );\n\n\/**\n * Authentication Unique Keys and Salts.\n *\n * Change these to different unique phrases!\n * You can generate these using the {@link https:\/\/api.wordpress.org\/secret-key\/1.1\/salt\/ WordPress.org secret-key service}\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n *\n * @since 2.6.0\n *\/\ndefine('AUTH_KEY', '**OBSCURED**');\ndefine('SECURE_AUTH_KEY', '**OBSCURED**');\ndefine('LOGGED_IN_KEY', '**OBSCURED**');\ndefine('NONCE_KEY', '**OBSCURED**');\ndefine('AUTH_SALT', '**OBSCURED**');\ndefine('SECURE_AUTH_SALT', '**OBSCURED**');\ndefine('LOGGED_IN_SALT', '**OBSCURED**');\ndefine('NONCE_SALT', '**OBSCURED**');\n\n\/**\n * WordPress Database Table prefix.\n *\n * You can have multiple installations in one database if you give each\n * a unique prefix. Only numbers, letters, and underscores please!\n *\/\n$table_prefix = 'h7E2w_';\n\n\n\ndefine( 'WP_SITEURL', 'http:\/\/comtim.vn' );\n\/* That's all, stop editing! Happy publishing. *\/\n\n\/** Absolute path to the WordPress directory. *\/\nif ( ! defined( 'ABSPATH' ) ) {\n\tdefine( 'ABSPATH', dirname(__FILE__) . '\/' );\n}\n\n\/** Sets up WordPress vars and included files. *\/\nrequire_once ABSPATH . 'wp-settings.php';\n<\/pre><\/div><div class=\"col col-2\"><b>New wp-config.php<\/b><pre>&lt;?php\ndefine( 'WP_CACHE', true ); \/\/ Added by WP Rocket\n\n\/**\n * The base configuration for WordPress\n *\n * The wp-config.php creation script uses this file during the\n * installation. You don't have to use the web site, you can\n * copy this file to &quot;wp-config.php&quot; and fill in the values.\n *\n * This file contains the following configurations:\n *\n * * MySQL settings\n * * Secret keys\n * * Database table prefix\n * * ABSPATH\n *\n * @link https:\/\/wordpress.org\/support\/article\/editing-wp-config-php\/\n *\n * @package WordPress\n *\/\n\n\/\/ ** MySQL settings - You can get this info from your web host ** \/\/\n\/** The name of the database for WordPress *\/\ndefine( 'DB_NAME', '**OBSCURED**' );\n\n\/** MySQL database username *\/\ndefine( 'DB_USER', '**OBSCURED**' );\n\n\/** MySQL database password *\/\ndefine( 'DB_PASSWORD', '**OBSCURED**' );\n\n\/** MySQL hostname *\/\ndefine( 'DB_HOST', '**OBSCURED**' );\n\n\/** Database Charset to use in creating database tables. *\/\ndefine( 'DB_CHARSET', 'utf8' );\n\n\/** The Database Collate type. Don't change this if in doubt. *\/\ndefine( 'DB_COLLATE', '' );\n\n\/**\n * Authentication Unique Keys and Salts.\n *\n * Change these to different unique phrases!\n * You can generate these using the {@link https:\/\/api.wordpress.org\/secret-key\/1.1\/salt\/ WordPress.org secret-key service}\n * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.\n *\n * @since 2.6.0\n *\/\ndefine('AUTH_KEY', '**OBSCURED**');\ndefine('SECURE_AUTH_KEY', '**OBSCURED**');\ndefine('LOGGED_IN_KEY', '**OBSCURED**');\ndefine('NONCE_KEY', '**OBSCURED**');\ndefine('AUTH_SALT', '**OBSCURED**');\ndefine('SECURE_AUTH_SALT', '**OBSCURED**');\ndefine('LOGGED_IN_SALT', '**OBSCURED**');\ndefine('NONCE_SALT', '**OBSCURED**');\n\n\/**\n * WordPress Database Table prefix.\n *\n * You can have multiple installations in one database if you give each\n * a unique prefix. Only numbers, letters, and underscores please!\n *\/\n$table_prefix = 'h7E2w_';\n\n\n\ndefine( 'WP_SITEURL', 'http:\/\/localhost:8080\/wordpress64' );\n\/* That's all, stop editing! Happy publishing. *\/\n\n\/** Absolute path to the WordPress directory. *\/\nif ( ! defined( 'ABSPATH' ) ) {\n\tdefine( 'ABSPATH', dirname(__FILE__) . '\/' );\n}\n\n\/** Sets up WordPress vars and included files. *\/\nrequire_once ABSPATH . 'wp-settings.php';\n<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\n            <\/div>\n        <\/div>\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        },
+        "htaccess-changes": {
+            "shortMsg": "htaccess changes",
+            "level": 0,
+            "longMsg": "        <span class=\"link-style dup-ligthbox-link\" data-dup-ligthbox=\"dup-html-id-4-1705485406-7941\" >.htaccess changes<\/span>\n        <div id=\"dup-html-id-4-1705485406-7941\" class=\"dub-ligthbox-content close\">\n            <div class=\"wrapper\" >\n                <h2 class=\"title\" >HTACCESS COMPARE<\/h2>\n                <div class=\"content\" ><div class=\"row-cols-2\"><div class=\"col col-1\"><b>Original .htaccess<\/b><pre># This file was updated by Duplicator on 2023-12-21 10:39:42.\n# See the original_files_ folder for the original source_site_htaccess file.\n# BEGIN WordPress\n&lt;IfModule mod_rewrite.c&gt;\nRewriteEngine On\nRewriteBase \/\nRewriteRule ^index\\.php$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . \/index.php [L]\n&lt;\/IfModule&gt;\n# END WordPress<\/pre><\/div><div class=\"col col-2\"><b>New .htaccess<\/b><pre># This file was updated by Duplicator on 2024-01-17 09:56:46.\n# See the original_files_ folder for the original source_site_htaccess file.\n# BEGIN WordPress\n&lt;IfModule mod_rewrite.c&gt;\nRewriteEngine On\nRewriteBase \/wordpress64\/\nRewriteRule ^index\\.php$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . \/wordpress64\/index.php [L]\n&lt;\/IfModule&gt;\n# END WordPress<\/pre><\/div><\/div><\/div>                <button class=\"close-button\" title=\"Close\" ><i class=\"fa fa-2x fa-times\"><\/i><\/button>\n            <\/div>\n        <\/div>\n        ",
+            "sections": [
+                "changes"
+            ],
+            "faqLink": null,
+            "priority": 10,
+            "open": true,
+            "longMsgMode": "html"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "CL_-=_-=": "DUPX_DBInstall",
+    "post": {
+        "view_mode": "basic",
+        "dbname": "wordpress64",
+        "dbuser": "root",
+        "dbpass": "",
+        "dbport": null,
+        "dbmysqlmode": "DEFAULT",
+        "dbmysqlmode_opts": "",
+        "pos": 3748300,
+        "pass": 1,
+        "first_chunk": false,
+        "dbchunk_retry": 0,
+        "continue_chunking": false,
+        "progress": 100,
+        "delimiter": ";",
+        "is_error": 0,
+        "error_msg": ""
+    },
+    "dbaction": "empty",
+    "dbcharset": "utf8",
+    "dbcollate": "",
+    "dbvar_maxtime": "5000",
+    "dbvar_maxpacks": "268435456",
+    "dbvar_sqlmode": "NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION",
+    "sql_file_path": "C:\/xampp\/htdocs\/wordpress64\/dup-installer\/dup-database__8e65969-17094719.sql",
+    "table_count": 0,
+    "table_rows": 0,
+    "query_errs": 0,
+    "drop_tbl_log": 0,
+    "rename_tbl_log": 0,
+    "dbquery_errs": 0,
+    "dbquery_rows": 3058,
+    "dbtable_count": 56,
+    "dbtable_rows": 2999,
+    "profile_start": 1705485396.188846,
+    "start_microtime": 1705485396.18857,
+    "thread_start_time": 1705485401.431449,
+    "dbsplit_creates": true,
+    "dbFileSize": 3748300,
+    "setQueries": [
+        "\/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' *\/;"
+    ],
+    "dbUserMode": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Database\\DbUserMode",
+        "targetUsersById": [],
+        "usersAutoIncrement": -1,
+        "usersMetaAutoIncrement": -1,
+        "addedUsers": [],
+        "mappingIds": [],
+        "existingsMetaIsd": [],
+        "userTableNumCols": 0,
+        "userMode": "overwrite",
+        "prefixMetaRegexCheck": "\/^h7E2w_(?:(\\d+)_)?(.*)$\/",
+        "prefixMetaMapping": [
+            "h7E2w_"
+        ]
+    },
+    "queryFixes": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Database\\QueryFixes",
+        "globalRules": {
+            "search": [
+                "\/^(\\s*(?:\\\/\\*!\\d+\\s)?\\s*(?:CREATE.+)?DEFINER\\s*=)([^\\*\\s]+)(.*)$\/m",
+                "\/^(\\s*CREATE.+(?:PROCEDURE|FUNCTION)[\\s\\S]*)(BEGIN)([\\s\\S]*)$\/"
+            ],
+            "replace": [
+                "$1`root`@`localhost`$3",
+                "$1SQL SECURITY INVOKER\n$2$3"
+            ]
+        },
+        "tablesPrefixRules": []
+    }
+}

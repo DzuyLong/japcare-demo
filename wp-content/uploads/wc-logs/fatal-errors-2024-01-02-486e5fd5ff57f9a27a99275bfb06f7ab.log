@@ -1,0 +1,102 @@
+2024-01-02T08:20:22+00:00 CRITICAL Uncaught Error: Call to undefined function seopress_advanced_advanced_trailingslash_option() in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php:60
+Stack trace:
+#0 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(324): seopress_dublin_core_relation_hook()
+#1 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(3052): do_action()
+#4 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/header.php(20): wp_head()
+#5 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(790): require_once('...')
+#6 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(725): load_template()
+#7 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(48): locate_template()
+#8 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/page-blank.php(9): get_header()
+#9 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template-loader.php(106): include('...')
+#10 /home/comtimvNbFn/comtim.vn/public_html/wp-blog-header.php(19): require_once('...')
+#11 /home/comtimvNbFn/comtim.vn/public_html/index.php(17): require('...')
+#12 {main}
+  thrown in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php on line 60
+
+2024-01-02T08:20:23+00:00 CRITICAL Uncaught Error: Call to undefined function seopress_advanced_advanced_trailingslash_option() in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php:60
+Stack trace:
+#0 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(324): seopress_dublin_core_relation_hook()
+#1 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(3052): do_action()
+#4 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/header.php(20): wp_head()
+#5 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(790): require_once('...')
+#6 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(725): load_template()
+#7 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(48): locate_template()
+#8 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/page-blank.php(9): get_header()
+#9 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template-loader.php(106): include('...')
+#10 /home/comtimvNbFn/comtim.vn/public_html/wp-blog-header.php(19): require_once('...')
+#11 /home/comtimvNbFn/comtim.vn/public_html/index.php(17): require('...')
+#12 {main}
+  thrown in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php on line 60
+
+2024-01-02T08:20:38+00:00 CRITICAL Uncaught Error: Call to undefined function seopress_advanced_advanced_trailingslash_option() in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php:60
+Stack trace:
+#0 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(324): seopress_dublin_core_relation_hook()
+#1 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(3052): do_action()
+#4 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/header.php(20): wp_head()
+#5 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(790): require_once('...')
+#6 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(725): load_template()
+#7 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(48): locate_template()
+#8 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/page-blank.php(9): get_header()
+#9 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template-loader.php(106): include('...')
+#10 /home/comtimvNbFn/comtim.vn/public_html/wp-blog-header.php(19): require_once('...')
+#11 /home/comtimvNbFn/comtim.vn/public_html/index.php(17): require('...')
+#12 {main}
+  thrown in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php on line 60
+
+2024-01-02T08:20:40+00:00 CRITICAL Uncaught Error: Call to undefined function seopress_advanced_advanced_trailingslash_option() in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php:60
+Stack trace:
+#0 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(324): seopress_dublin_core_relation_hook()
+#1 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(3052): do_action()
+#4 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/header.php(20): wp_head()
+#5 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(790): require_once('...')
+#6 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(725): load_template()
+#7 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(48): locate_template()
+#8 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/page-blank.php(9): get_header()
+#9 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template-loader.php(106): include('...')
+#10 /home/comtimvNbFn/comtim.vn/public_html/wp-blog-header.php(19): require_once('...')
+#11 /home/comtimvNbFn/comtim.vn/public_html/index.php(17): require('...')
+#12 {main}
+  thrown in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php on line 60
+
+2024-01-02T08:20:44+00:00 CRITICAL Uncaught Error: Call to undefined function seopress_advanced_advanced_trailingslash_option() in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php:60
+Stack trace:
+#0 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(324): seopress_dublin_core_relation_hook()
+#1 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(3052): do_action()
+#4 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/header.php(20): wp_head()
+#5 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(790): require_once('...')
+#6 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(725): load_template()
+#7 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(48): locate_template()
+#8 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/page-blank.php(9): get_header()
+#9 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template-loader.php(106): include('...')
+#10 /home/comtimvNbFn/comtim.vn/public_html/wp-blog-header.php(19): require_once('...')
+#11 /home/comtimvNbFn/comtim.vn/public_html/index.php(17): require('...')
+#12 {main}
+  thrown in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php on line 60
+
+2024-01-02T08:20:56+00:00 CRITICAL Uncaught Error: Call to undefined function seopress_advanced_advanced_trailingslash_option() in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php:60
+Stack trace:
+#0 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(324): seopress_dublin_core_relation_hook()
+#1 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(3052): do_action()
+#4 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/header.php(20): wp_head()
+#5 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(790): require_once('...')
+#6 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template.php(725): load_template()
+#7 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/general-template.php(48): locate_template()
+#8 /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes/flatsome/page-blank.php(9): get_header()
+#9 /home/comtimvNbFn/comtim.vn/public_html/wp-includes/template-loader.php(106): include('...')
+#10 /home/comtimvNbFn/comtim.vn/public_html/wp-blog-header.php(19): require_once('...')
+#11 /home/comtimvNbFn/comtim.vn/public_html/index.php(17): require('...')
+#12 {main}
+  thrown in /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins/wp-seopress-pro/inc/functions/options-dublin-core.php on line 60
+

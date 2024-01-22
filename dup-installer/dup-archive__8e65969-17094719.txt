@@ -1,0 +1,965 @@
+{
+    "dup_type": "lite",
+    "created": "2024-01-17 09:47:19",
+    "version_dup": "1.5.8",
+    "version_wp": "6.4.2",
+    "version_db": "10.5.21",
+    "version_php": "8.2.8",
+    "version_os": "Linux",
+    "blogname": "C\u01a1m T\u00edm - S\u1ef1 L\u1ef1a Ch\u1ecdn S\u1ee9c Kh\u1ecfe M\u1ed7i Ng\u00e0y",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$JS5G7MyUWxXlrVlnH.MYLezs\/q1qGdFsKbC9GE.vXG.xXlvgPW9Fm",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "h7E2w_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "comtim.vn",
+            "path": "\/",
+            "blogname": "C\u01a1m T\u00edm - S\u1ef1 L\u1ef1a Ch\u1ecdn S\u1ee9c Kh\u1ecfe M\u1ed7i Ng\u00e0y",
+            "blog_prefix": "h7E2w_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "2",
+                    "user_login": "admin",
+                    "id": "2"
+                },
+                {
+                    "ID": "3",
+                    "user_login": "comtim",
+                    "id": "3"
+                },
+                {
+                    "ID": "1",
+                    "user_login": "longpd",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/comtim.vn",
+            "fullSiteUrl": "https:\/\/comtim.vn",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/comtim.vn\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 1,
+        "isNameUpperCase": 0,
+        "name": "rfi2_comtimvnbfn",
+        "tablesBaseCount": 56,
+        "tablesFinalCount": 56,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 2987,
+        "tablesSizeOnDisk": 13336576,
+        "tablesList": {
+            "h7E2w_actionscheduler_actions": {
+                "inaccurateRows": 116,
+                "insertedRows": 116,
+                "size": 196608
+            },
+            "h7E2w_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_actionscheduler_groups": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "h7E2w_actionscheduler_logs": {
+                "inaccurateRows": 342,
+                "insertedRows": 342,
+                "size": 98304
+            },
+            "h7E2w_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "h7E2w_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "h7E2w_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_options": {
+                "inaccurateRows": 430,
+                "insertedRows": 439,
+                "size": 3276800
+            },
+            "h7E2w_postmeta": {
+                "inaccurateRows": 1109,
+                "insertedRows": 1109,
+                "size": 409600
+            },
+            "h7E2w_posts": {
+                "inaccurateRows": 431,
+                "insertedRows": 433,
+                "size": 6766592
+            },
+            "h7E2w_seopress_significant_keywords": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_termmeta": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 49152
+            },
+            "h7E2w_terms": {
+                "inaccurateRows": 29,
+                "insertedRows": 29,
+                "size": 49152
+            },
+            "h7E2w_term_relationships": {
+                "inaccurateRows": 84,
+                "insertedRows": 84,
+                "size": 32768
+            },
+            "h7E2w_term_taxonomy": {
+                "inaccurateRows": 29,
+                "insertedRows": 29,
+                "size": 49152
+            },
+            "h7E2w_usermeta": {
+                "inaccurateRows": 78,
+                "insertedRows": 78,
+                "size": 49152
+            },
+            "h7E2w_users": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 65536
+            },
+            "h7E2w_wc_admin_notes": {
+                "inaccurateRows": 70,
+                "insertedRows": 70,
+                "size": 65536
+            },
+            "h7E2w_wc_admin_note_actions": {
+                "inaccurateRows": 102,
+                "insertedRows": 102,
+                "size": 81920
+            },
+            "h7E2w_wc_category_lookup": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 16384
+            },
+            "h7E2w_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "h7E2w_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "h7E2w_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "h7E2w_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "h7E2w_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "h7E2w_wc_product_meta_lookup": {
+                "inaccurateRows": 27,
+                "insertedRows": 27,
+                "size": 114688
+            },
+            "h7E2w_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "h7E2w_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "h7E2w_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "h7E2w_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "h7E2w_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "h7E2w_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "h7E2w_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "h7E2w_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "h7E2w_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "h7E2w_wpmailsmtp_debug_events": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 16384
+            },
+            "h7E2w_wpmailsmtp_tasks_meta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "h7E2w_wpr_rocket_cache": {
+                "inaccurateRows": 97,
+                "insertedRows": 97,
+                "size": 65536
+            },
+            "h7E2w_wpr_rucss_used_css": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.5.21",
+        "versionComment": "mariadb.org binary distribution",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20240117_comtimsuluachonsuckhoemo",
+        "packageHash": "8e65969-17094719",
+        "secondaryHash": "74c167f-17094719"
+    },
+    "fileInfo": {
+        "dirCount": 3032,
+        "fileCount": 21768,
+        "size": 267078720
+    },
+    "wpInfo": {
+        "version": "6.4.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+        "targetPaths": [
+            "\/home\/comtimvNbFn\/comtim.vn\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "2",
+                "user_login": "admin",
+                "id": "2"
+            },
+            {
+                "ID": "3",
+                "user_login": "comtim",
+                "id": "3"
+            },
+            {
+                "ID": "1",
+                "user_login": "longpd",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "R57EL|!;3e!hO)czMN)Q*cj)KIV7D!8K9I]M[Z53F7WtazeRo8osf5m\/+[-9!\/L8",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "e]yR5xI5w-Cj6s\/gJrsQ-xc]@6Q!6R1f%()5f2a53je-sVpQ\/vM6#)|D8A)%wOw#",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "4#)8@]q\/529:6%!y)hv0N!5!x1QbgBXlki2L\/*3Y!8843!OBXY7q~[D4BJCCv;36",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "c|\/rQ045-(AnfaiI0!TAc3Yw77Ny3TIr70pUwA9tQNTiVU;CLY(lwY1XS6%5wfVP",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "+D6#Ze79HLKfc!XY##YnxAqw~vMQYJY4@768g48q%0M\/-m-Rr1DJ2b[2Q]0~GCQp",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "x01GA5X+[MRC*lK&57\/8zbMsPZgTdfnv9+Z![&#pX*WYdwrluz|0Bm%LL(80@9Za",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "(HW04)%91V6r1v58aeoU4AN%5X8b73sj@ac]]4+J53:y)7&*!508YdT_tH2-7!V1",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "nqvHvZcAhS\/6@S9]#dHh*MVi#lTLv6CA(qJW]+]LXK59p#Ov33wS%&OK7ZJO9@9T",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "value": "http:\/\/comtim.vn",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/comtim.vn\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/comtim.vn\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "640M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/themes\/flatsome",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/themes\/flatsome-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/comtim.vn\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/comtim.vn",
+                "homeUrl": "https:\/\/comtim.vn",
+                "loginUrl": "https:\/\/comtim.vn\/wp-login.php",
+                "contentUrl": "https:\/\/comtim.vn\/wp-content",
+                "uploadBaseUrl": "http:\/\/comtim.vn\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/comtim.vn\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/comtim.vn\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/comtim.vn\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+                    "abs": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+                    "wpconfig": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+                    "wpcontent": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content",
+                    "uploads": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+                    "abs": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+                    "wpconfig": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+                    "wpcontent": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content",
+                    "uploads": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/comtimvNbFn\/comtim.vn\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-widgets\/classic-widgets.php": {
+                "slug": "classic-widgets\/classic-widgets.php",
+                "name": "Classic Widgets",
+                "version": "0.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-widgets\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-widgets\/",
+                "description": "Enables the classic widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.",
+                "title": "Classic Widgets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.8.5",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "devvn-local-store\/devvn-local-store.php": {
+                "slug": "devvn-local-store\/devvn-local-store.php",
+                "name": "DevVN Local Store",
+                "version": "1.0.8",
+                "pluginURI": "http:\/\/levantoan.com\/find-a-local-store-by-devvn",
+                "author": "Le Van Toan",
+                "authorURI": "http:\/\/levantoan.com",
+                "description": "Find a Local Store by DevVN",
+                "title": "DevVN Local Store",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.8",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "font-awesome\/index.php": {
+                "slug": "font-awesome\/index.php",
+                "name": "Font Awesome",
+                "version": "4.4.0",
+                "pluginURI": "https:\/\/fontawesome.com\/how-to-use\/on-the-web\/using-with\/wordpress",
+                "author": "Font Awesome",
+                "authorURI": "https:\/\/fontawesome.com\/",
+                "description": "The official way to use Font Awesome Free or Pro icons on your site, brought to you by the Font Awesome team.",
+                "title": "Font Awesome",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "gtranslate\/gtranslate.php": {
+                "slug": "gtranslate\/gtranslate.php",
+                "name": "GTranslate",
+                "version": "3.0.5",
+                "pluginURI": "https:\/\/gtranslate.io\/?xyz=998",
+                "author": "Translate AI Multilingual Solutions",
+                "authorURI": "https:\/\/gtranslate.io",
+                "description": "Translate your website and make it multilingual. For support visit <a href=\"https:\/\/wordpress.org\/support\/plugin\/gtranslate\">GTranslate Support Forum<\/a>.",
+                "title": "GTranslate",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-seopress\/seopress.php": {
+                "slug": "wp-seopress\/seopress.php",
+                "name": "SEOPress",
+                "version": "7.3.2",
+                "pluginURI": "https:\/\/www.seopress.org\/",
+                "author": "The SEO Guys at SEOPress",
+                "authorURI": "https:\/\/www.seopress.org\/",
+                "description": "One of the best SEO plugins for WordPress.",
+                "title": "SEOPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-seopress-pro\/seopress-pro.php": {
+                "slug": "wp-seopress-pro\/seopress-pro.php",
+                "name": "SEOPress PRO",
+                "version": "5.5",
+                "pluginURI": "https:\/\/www.seopress.org\/seopress-pro\/",
+                "author": "SEOPress",
+                "authorURI": "https:\/\/www.seopress.org\/seopress-pro\/",
+                "description": "The PRO version of SEOPress. SEOPress required (free).",
+                "title": "SEOPress PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-site-kit\/google-site-kit.php": {
+                "slug": "google-site-kit\/google-site-kit.php",
+                "name": "Site Kit by Google",
+                "version": "1.116.0",
+                "pluginURI": "https:\/\/sitekit.withgoogle.com",
+                "author": "Google",
+                "authorURI": "https:\/\/opensource.google.com",
+                "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
+                "title": "Site Kit by Google",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.4.0",
+                "pluginURI": "https:\/\/woo.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woo.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-mail-smtp\/wp_mail_smtp.php": {
+                "slug": "wp-mail-smtp\/wp_mail_smtp.php",
+                "name": "WP Mail SMTP",
+                "version": "3.11.0",
+                "pluginURI": "https:\/\/wpmailsmtp.com\/",
+                "author": "WP Mail SMTP",
+                "authorURI": "https:\/\/wpmailsmtp.com\/",
+                "description": "Reconfigures the <code>wp_mail()<\/code> function to use Gmail\/Mailgun\/SendGrid\/SMTP instead of the default <code>mail()<\/code> and creates an options page to manage the settings.",
+                "title": "WP Mail SMTP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-rocket\/wp-rocket.php": {
+                "slug": "wp-rocket\/wp-rocket.php",
+                "name": "WP Rocket",
+                "version": "3.15.2",
+                "pluginURI": "https:\/\/wp-rocket.me",
+                "author": "WP Media",
+                "authorURI": "https:\/\/wp-media.me",
+                "description": "The best WordPress performance plugin.",
+                "title": "WP Rocket",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "WPShapere\/wpshapere.php": {
+                "slug": "WPShapere\/wpshapere.php",
+                "name": "WPSHAPERE",
+                "version": "6.1.13",
+                "pluginURI": "https:\/\/codecanyon.net\/item\/wordpress-admin-theme-wpshapere\/8183353",
+                "author": "AcmeeDesign Softwares and Solutions",
+                "authorURI": "https:\/\/acmeedesign.com",
+                "description": "#1 Selling WordPress Admin Theme and White Label Solution across the internet.",
+                "title": "WPSHAPERE",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "advanced-cache.php": {
+                "slug": "advanced-cache.php",
+                "name": "advanced-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            },
+            "maintenance.php": {
+                "slug": "maintenance.php",
+                "name": "maintenance.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "flatsome-child": {
+                "slug": "flatsome-child",
+                "themeName": "Flatsome Child",
+                "version": "3.0",
+                "themeURI": "",
+                "parentTheme": "flatsome",
+                "template": "flatsome",
+                "stylesheet": "flatsome-child",
+                "description": "This is a child theme for Flatsome Theme",
+                "author": "UX Themes",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "flatsome": {
+                "slug": "flatsome",
+                "themeName": "Flatsome",
+                "version": "3.16.5",
+                "themeURI": "http:\/\/flatsome.uxthemes.com",
+                "parentTheme": false,
+                "template": "flatsome",
+                "stylesheet": "flatsome",
+                "description": "Multi-Purpose Responsive WooCommerce Theme",
+                "author": "UX-Themes",
+                "authorURI": "https:\/\/uxthemes.com",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "ngan-ha": {
+                "slug": "ngan-ha",
+                "themeName": "Ngan Ha",
+                "version": "3.0",
+                "themeURI": "",
+                "parentTheme": "flatsome",
+                "template": "flatsome",
+                "stylesheet": "ngan-ha",
+                "description": "This is a child theme for Flatsome Theme",
+                "author": "UX Themes",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "tranhdahp": {
+                "slug": "tranhdahp",
+                "themeName": "ABSoltech",
+                "version": "3.0",
+                "themeURI": "",
+                "parentTheme": "flatsome",
+                "template": "flatsome",
+                "stylesheet": "tranhdahp",
+                "description": "This is a child theme for Flatsome Theme",
+                "author": "UX Themes",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "C\u01a1m T\u00edm - S\u1ef1 L\u1ef1a Ch\u1ecdn S\u1ee9c Kh\u1ecfe M\u1ed7i Ng\u00e0y"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20240117_comtimsuluachonsuckhoemo_8e65969ab5d4886e9230_20240117094719_installer-backup.php",
+    "package_name": "20240117_comtimsuluachonsuckhoemo_8e65969ab5d4886e9230_20240117094719_archive.zip",
+    "package_hash": "8e65969-17094719",
+    "package_notes": ""
+}

@@ -1,0 +1,128 @@
+2024-01-17T09:59:49+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\plugin-fw\lib\yit-plugin-gradients.php on line 443
+
+2024-01-17T10:00:35+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\plugin-fw\lib\yit-plugin-gradients.php on line 443
+
+2024-01-17T10:02:56+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards\plugin-fw\lib\yit-plugin-gradients.php on line 443
+
+2024-01-17T10:07:48+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\plugin-fw\lib\yit-plugin-gradients.php on line 443
+
+2024-01-17T10:09:01+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\class.yith-wc-points-rewards.php:351
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): YITH_WC_Points_Rewards->send_email_before_expiration()
+#1 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#2 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress64\wp-cron.php(191): do_action_ref_array('ywpar_cron', Array)
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\class.yith-wc-points-rewards.php on line 351
+
+2024-01-17T10:09:02+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:09:12+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:09:13+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:12:44+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\plugin-fw\lib\yit-plugin-gradients.php on line 443
+
+2024-01-17T10:13:14+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:13:19+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:13:21+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:13:31+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:14:21+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:14:24+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:15:12+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_address() must be compatible with WC_Email::get_from_address($from_email = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 161
+
+2024-01-17T10:16:00+00:00 CRITICAL Declaration of YITH_YWPAR_Update_Points::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-update-points.php on line 130
+
+2024-01-17T10:16:07+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:16:43+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\plugin-fw\lib\yit-plugin-gradients.php on line 443
+
+2024-01-17T10:17:18+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:17:20+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:17:41+00:00 CRITICAL Declaration of YITH_YWPAR_Expiration::get_from_name() must be compatible with WC_Email::get_from_name($from_name = '') in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium-master\includes\emails\class.yith-ywpar-expiration.php on line 146
+
+2024-01-17T10:22:43+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-version-compatibility.php:106
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-version-compatibility.php(54): YITH_WC_Points_Rewards_Version_Compatibility->compatibility_to_version_200()
+#1 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-version-compatibility.php(36): YITH_WC_Points_Rewards_Version_Compatibility->__construct()
+#2 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-version-compatibility.php(173): YITH_WC_Points_Rewards_Version_Compatibility::get_instance()
+#3 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\init.php(169): YITH_WC_Points_Rewards_Version_Compatibility()
+#4 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): yith_ywpar_premium_constructor('')
+#5 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\init.php(82): do_action('yith_ywpar_init')
+#8 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): yith_ywpar_premium_install('')
+#9 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wordpress64\wp-settings.php(506): do_action('plugins_loaded')
+#12 C:\xampp\htdocs\wordpress64\wp-config.php(79): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress64\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress64\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress64\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-version-compatibility.php on line 106
+
+2024-01-17T10:25:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php:798
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(751): ywpar_options_porting(Array)
+#1 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(655): YITH_WC_Points_Rewards_Admin->save_default_options()
+#2 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): YITH_WC_Points_Rewards_Admin->register_panel('')
+#3 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress64\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#6 C:\xampp\htdocs\wordpress64\wp-admin\menu.php(417): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress64\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress64\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php on line 798
+
+2024-01-17T10:26:15+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php:798
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(751): ywpar_options_porting(Array)
+#1 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(655): YITH_WC_Points_Rewards_Admin->save_default_options()
+#2 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): YITH_WC_Points_Rewards_Admin->register_panel('')
+#3 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress64\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#6 C:\xampp\htdocs\wordpress64\wp-admin\menu.php(417): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress64\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress64\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php on line 798
+
+2024-01-17T10:26:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php:798
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(751): ywpar_options_porting(Array)
+#1 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(655): YITH_WC_Points_Rewards_Admin->save_default_options()
+#2 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): YITH_WC_Points_Rewards_Admin->register_panel('')
+#3 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress64\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#6 C:\xampp\htdocs\wordpress64\wp-admin\menu.php(417): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress64\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress64\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php on line 798
+
+2024-01-17T10:26:27+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php:798
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(751): ywpar_options_porting(Array)
+#1 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(655): YITH_WC_Points_Rewards_Admin->save_default_options()
+#2 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): YITH_WC_Points_Rewards_Admin->register_panel('')
+#3 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress64\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#6 C:\xampp\htdocs\wordpress64\wp-admin\menu.php(417): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress64\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress64\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php on line 798
+

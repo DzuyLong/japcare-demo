@@ -1,0 +1,73 @@
+{
+    "report": {
+        "pass": 0,
+        "chunk": 1,
+        "chunkPos": {
+            "l0": "final_report",
+            "l1": null,
+            "l2": null
+        },
+        "progress_perc": 100,
+        "scan_tables": 56,
+        "scan_rows": 2842,
+        "scan_cells": 23048,
+        "updt_tables": 9,
+        "updt_rows": 590,
+        "updt_cells": 618,
+        "errsql": [],
+        "errser": [],
+        "errkey": [],
+        "errsql_sum": 0,
+        "errser_sum": 0,
+        "errkey_sum": 0,
+        "profile_start": 1705485404.235857,
+        "profile_end": 1705485406.558988,
+        "time": "2.3231 sec.",
+        "err_all": 0,
+        "warn_all": 0,
+        "warnlist": []
+    },
+    "cTableParams": null,
+    "replaceData": [
+        {
+            "id": 0,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/home\/comtimvNbFn\/comtim.vn\/public_html",
+            "replace": "C:\/xampp\/htdocs\/wordpress64"
+        },
+        {
+            "id": 1,
+            "prority": 10,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "http:\/\/comtim.vn\/wp-content\/uploads",
+            "replace": "http:\/\/localhost:8080\/wordpress64\/wp-content\/uploads"
+        },
+        {
+            "id": 2,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "https:\/\/comtim.vn",
+            "replace": "http:\/\/localhost:8080\/wordpress64"
+        },
+        {
+            "id": 3,
+            "prority": 10,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "http:\/\/comtim.vn\/wp-content\/mu-plugins",
+            "replace": "http:\/\/localhost:8080\/wordpress64\/wp-content\/mu-plugins"
+        }
+    ]
+}

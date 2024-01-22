@@ -1,0 +1,14 @@
+2024-01-18T09:10:20+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php:798
+Stack trace:
+#0 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(751): ywpar_options_porting(Array)
+#1 C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\class.yith-wc-points-rewards-admin.php(655): YITH_WC_Points_Rewards_Admin->save_default_options()
+#2 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(324): YITH_WC_Points_Rewards_Admin->register_panel('')
+#3 C:\xampp\htdocs\wordpress64\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress64\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress64\wp-admin\includes\menu.php(161): do_action('admin_menu', '')
+#6 C:\xampp\htdocs\wordpress64\wp-admin\menu.php(417): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress64\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress64\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress64\wp-content\plugins\yith-woocommerce-points-and-rewards-premium\includes\functions.yith-wc-points-rewards.php on line 798
+

@@ -1,0 +1,72 @@
+{
+    "CL_-=_-=": "DUP_Extraction",
+    "zip_filetime": "current",
+    "archive_action": "donothing",
+    "archive_engine": "ziparchivechunking",
+    "extractonStart": 1705485257.498374,
+    "chunkStart": 1705485388.161901,
+    "root_path": "C:\/xampp\/htdocs\/wordpress64\/",
+    "archive_path": "C:\/xampp\/htdocs\/wordpress64\/20240117_comtimsuluachonsuckhoemo_8e65969ab5d4886e9230_20240117094719_archive.zip",
+    "ajax1_error_level": 32767,
+    "dawn_status": null,
+    "archive_offset": 24577,
+    "do_chunking": false,
+    "chunkedExtractionCompleted": false,
+    "num_files": 25407,
+    "sub_folder_archive": "",
+    "max_size_extract_at_a_time": 2097152,
+    "zip_arc_chunk_notice_no": -1,
+    "zip_arc_chunk_notice_change_last_time": 0,
+    "zip_arc_chunks_extract_rates": [
+        393881.64206327323,
+        3061420.224235114,
+        1485578.5004172365,
+        7051772.607539789,
+        22276806.72348022,
+        1168642.9897011393,
+        862294.2207885777,
+        1341771.7847056496,
+        1843473.1374215747,
+        462787.29474899644,
+        1557714.0761578137,
+        1425470.4452652172,
+        1781493.409767612,
+        1094889.4036712933,
+        740307.5462982464,
+        1019550.1007511426,
+        1438580.933534987,
+        1194953.9268824055,
+        1831160.2528915924,
+        985596.5703009719,
+        931714.7203991018,
+        2440411.83764005,
+        511777.85036755336,
+        13209832.50461606,
+        5942460.075355138,
+        2301015.205193781
+    ],
+    "archive_items_count": 24800,
+    "filters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "20240117_comtimsuluachonsuckhoemo_8e65969ab5d4886e9230_20240117094719_installer-backup.php"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "dup-installer"
+        ]
+    },
+    "removeFilters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "C:\/xampp\/htdocs\/wordpress64\/20240117_comtimsuluachonsuckhoemo_8e65969ab5d4886e9230_20240117094719_installer-backup.php",
+            "C:\/xampp\/htdocs\/wordpress64\/20240117_comtimsuluachonsuckhoemo_8e65969ab5d4886e9230_20240117094719_archive.zip",
+            "C:\/xampp\/htdocs\/wordpress64\/installer.php",
+            "C:\/xampp\/htdocs\/wordpress64\/dup-installer-bootlog__af7b79e-17094719.txt"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "C:\/xampp\/htdocs\/wordpress64\/dup-installer"
+        ]
+    }
+}

@@ -1,0 +1,1391 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 09:53:40
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.2.8                                 |8.0.28
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.28 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28
+DOC ROOT____________: "C:/xampp/htdocs/wordpress64"
+REQUEST URL_________: "http://localhost:8080/wordpress64"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://comtim.vn/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/wordpress64"
+URL_NEW_____________: "http://localhost:8080/wordpress64"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/wordpress64/20240117_comtimsuluachonsuckhoemo_[HASH]_20240117094719_archive.zip"
+ARCHIVE SIZE________: 256.9MB
+CREATED_____________: 2024-01-17 09:47:19
+WP VERSION__________: 6.4.2
+DUP VERSION_________: 1.5.8
+LICENSE_____________: Free version
+DB VERSION__________: 10.5.21
+DB FILE SIZE________: 12.72MB
+DB TABLES___________: 56
+DB ROWS_____________: 2987
+URL HOME____________: https://comtim.vn
+URL CORE____________: https://comtim.vn
+URL CONTENT_________: https://comtim.vn/wp-content
+URL UPLOAD__________: http://comtim.vn/wp-content/uploads
+URL PLUGINS_________: https://comtim.vn/wp-content/plugins
+URL MU PLUGINS______: http://comtim.vn/wp-content/mu-plugins
+URL THEMES__________: https://comtim.vn/wp-content/themes
+PATH HOME___________: /home/comtimvNbFn/comtim.vn/public_html
+PATH ABS____________: /home/comtimvNbFn/comtim.vn/public_html
+PATH WPCONFIG_______: /home/comtimvNbFn/comtim.vn/public_html
+PATH WPCONTENT______: /home/comtimvNbFn/comtim.vn/public_html/wp-content
+PATH UPLOADS________: /home/comtimvNbFn/comtim.vn/public_html/wp-content/uploads
+PATH PLUGINS________: /home/comtimvNbFn/comtim.vn/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/comtimvNbFn/comtim.vn/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/comtimvNbFn/comtim.vn/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "comtim.vn/"
+
+PLUGINS
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:classic-widgets/classic-widgets.php               ][ON:true ]  Classic Widgets
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:devvn-local-store/devvn-local-store.php           ][ON:true ]  DevVN Local Store
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:font-awesome/index.php                            ][ON:true ]  Font Awesome
+PLUGIN [SLUG:gtranslate/gtranslate.php                         ][ON:true ]  GTranslate
+PLUGIN [SLUG:wp-seopress/seopress.php                          ][ON:true ]  SEOPress
+PLUGIN [SLUG:wp-seopress-pro/seopress-pro.php                  ][ON:true ]  SEOPress PRO
+PLUGIN [SLUG:google-site-kit/google-site-kit.php               ][ON:true ]  Site Kit by Google
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:true ]  WP Mail SMTP
+PLUGIN [SLUG:wp-rocket/wp-rocket.php                           ][ON:true ]  WP Rocket
+PLUGIN [SLUG:WPShapere/wpshapere.php                           ][ON:true ]  WPSHAPERE
+PLUGIN [SLUG:advanced-cache.php                                ][ON:false]  advanced-cache.php
+PLUGIN [SLUG:maintenance.php                                   ][ON:false]  maintenance.php
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.79369]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\ctrls\ctrl.base.php:227][DELTA:   1.33312]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+LOG-TIME[DELTA:   0.10352]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00060]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.03229]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.16671]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00110]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00167]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00128]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00065]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00296]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.14653]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00297]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00206]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00300]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: soft warning
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00101]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 09:54:17
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Cơm Tím - Sự Lựa Chọn Sức Khỏe Mỗi Ngày"
+HOME URL NEW________: "http://localhost:8080/wordpress64"
+SITE URL NEW________: "http://localhost:8080/wordpress64"
+CONTENT URL NEW_____: "http://localhost:8080/wordpress64/wp-content"
+UPLOAD URL NEW______: "http://localhost:8080/wordpress64/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost:8080/wordpress64/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/wordpress64"
+SITE PATH NEW_______: "C:/xampp/htdocs/wordpress64"
+CONTENT PATH NEW____: "C:/xampp/htdocs/wordpress64/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/wordpress64/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/wordpress64/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/wordpress64/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/wordpress64/dup-installer"
+	FILE: "C:/xampp/htdocs/wordpress64/20240117_comtimsuluachonsuckhoemo_[HASH]_20240117094719_installer-backup.php"
+	FILE: "C:/xampp/htdocs/wordpress64/20240117_comtimsuluachonsuckhoemo_[HASH]_20240117094719_archive.zip"
+	FILE: "C:/xampp/htdocs/wordpress64/installer.php"
+	FILE: "C:/xampp/htdocs/wordpress64/dup-installer-bootlog__af7b79e-17094719.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240117_comtimsuluachonsuckhoemo_[HASH]_20240117094719_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0109 sec. - Files processed: 3,173 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3173
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0231 sec. - Files processed: 4,382 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4382
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0285 sec. - Files processed: 5,160 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5160
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0179 sec. - Files processed: 6,092 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6092
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0116 sec. - Files processed: 7,634 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7634
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0364 sec. - Files processed: 8,617 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8617
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0156 sec. - Files processed: 9,183 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9183
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0374 sec. - Files processed: 9,894 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9894
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0208 sec. - Files processed: 10,410 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10410
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0106 sec. - Files processed: 11,600 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11600
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0160 sec. - Files processed: 12,832 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12832
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0335 sec. - Files processed: 13,671 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13671
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0360 sec. - Files processed: 14,428 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14428
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0191 sec. - Files processed: 14,813 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14813
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0264 sec. - Files processed: 15,623 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15623
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0205 sec. - Files processed: 16,668 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16668
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0107 sec. - Files processed: 18,100 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 18100
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0190 sec. - Files processed: 18,697 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 18697
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0167 sec. - Files processed: 19,389 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 19389
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0104 sec. - Files processed: 20,076 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20076
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0187 sec. - Files processed: 20,816 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20816
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0894 sec. - Files processed: 21,583 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 21583
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0207 sec. - Files processed: 22,074 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 22074
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0093 sec. - Files processed: 22,803 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 22803
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0303 sec. - Files processed: 23,818 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 23818
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0248 sec. - Files processed: 24,577 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 24577
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/wordpress64"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 25407
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 09:56:36 - RUNTIME: 138.5035 sec. - Files processed: 24,800 of 24,800
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 h7E2w_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 09:56:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "h7E2w_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "h7E2w_actionscheduler_actions"___________________[ROWS:     116] [EXTRACT|REPLACE] [INST NAME: h7E2w_actionscheduler_actions]
+TABLE "h7E2w_actionscheduler_claims"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_actionscheduler_claims]
+TABLE "h7E2w_actionscheduler_groups"____________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: h7E2w_actionscheduler_groups]
+TABLE "h7E2w_actionscheduler_logs"______________________[ROWS:     342] [EXTRACT|REPLACE] [INST NAME: h7E2w_actionscheduler_logs]
+TABLE "h7E2w_commentmeta"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_commentmeta]
+TABLE "h7E2w_comments"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_comments]
+TABLE "h7E2w_duplicator_packages"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: h7E2w_duplicator_packages]
+TABLE "h7E2w_links"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_links]
+TABLE "h7E2w_options"___________________________________[ROWS:     439] [EXTRACT|REPLACE] [INST NAME: h7E2w_options]
+TABLE "h7E2w_postmeta"__________________________________[ROWS:    1109] [EXTRACT|REPLACE] [INST NAME: h7E2w_postmeta]
+TABLE "h7E2w_posts"_____________________________________[ROWS:     433] [EXTRACT|REPLACE] [INST NAME: h7E2w_posts]
+TABLE "h7E2w_seopress_significant_keywords"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_seopress_significant_keywords]
+TABLE "h7E2w_termmeta"__________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: h7E2w_termmeta]
+TABLE "h7E2w_terms"_____________________________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: h7E2w_terms]
+TABLE "h7E2w_term_relationships"________________________[ROWS:      84] [EXTRACT|REPLACE] [INST NAME: h7E2w_term_relationships]
+TABLE "h7E2w_term_taxonomy"_____________________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: h7E2w_term_taxonomy]
+TABLE "h7E2w_usermeta"__________________________________[ROWS:      78] [EXTRACT|REPLACE] [INST NAME: h7E2w_usermeta]
+TABLE "h7E2w_users"_____________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: h7E2w_users]
+TABLE "h7E2w_wc_admin_notes"____________________________[ROWS:      70] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_admin_notes]
+TABLE "h7E2w_wc_admin_note_actions"_____________________[ROWS:     102] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_admin_note_actions]
+TABLE "h7E2w_wc_category_lookup"________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_category_lookup]
+TABLE "h7E2w_wc_customer_lookup"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_customer_lookup]
+TABLE "h7E2w_wc_download_log"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_download_log]
+TABLE "h7E2w_wc_orders"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_orders]
+TABLE "h7E2w_wc_orders_meta"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_orders_meta]
+TABLE "h7E2w_wc_order_addresses"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_order_addresses]
+TABLE "h7E2w_wc_order_coupon_lookup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_order_coupon_lookup]
+TABLE "h7E2w_wc_order_operational_data"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_order_operational_data]
+TABLE "h7E2w_wc_order_product_lookup"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_order_product_lookup]
+TABLE "h7E2w_wc_order_stats"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_order_stats]
+TABLE "h7E2w_wc_order_tax_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_order_tax_lookup]
+TABLE "h7E2w_wc_product_attributes_lookup"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_product_attributes_lookup]
+TABLE "h7E2w_wc_product_download_directories"___________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_product_download_directories]
+TABLE "h7E2w_wc_product_meta_lookup"____________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_product_meta_lookup]
+TABLE "h7E2w_wc_rate_limits"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_rate_limits]
+TABLE "h7E2w_wc_reserved_stock"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_reserved_stock]
+TABLE "h7E2w_wc_tax_rate_classes"_______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_tax_rate_classes]
+TABLE "h7E2w_wc_webhooks"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wc_webhooks]
+TABLE "h7E2w_woocommerce_api_keys"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_api_keys]
+TABLE "h7E2w_woocommerce_attribute_taxonomies"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_attribute_taxonomies]
+TABLE "h7E2w_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_downloadable_product_permissions]
+TABLE "h7E2w_woocommerce_log"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_log]
+TABLE "h7E2w_woocommerce_order_itemmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_order_itemmeta]
+TABLE "h7E2w_woocommerce_order_items"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_order_items]
+TABLE "h7E2w_woocommerce_payment_tokenmeta"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_payment_tokenmeta]
+TABLE "h7E2w_woocommerce_payment_tokens"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_payment_tokens]
+TABLE "h7E2w_woocommerce_sessions"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_sessions]
+TABLE "h7E2w_woocommerce_shipping_zones"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_shipping_zones]
+TABLE "h7E2w_woocommerce_shipping_zone_locations"_______[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_shipping_zone_locations]
+TABLE "h7E2w_woocommerce_shipping_zone_methods"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_shipping_zone_methods]
+TABLE "h7E2w_woocommerce_tax_rates"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_tax_rates]
+TABLE "h7E2w_woocommerce_tax_rate_locations"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_woocommerce_tax_rate_locations]
+TABLE "h7E2w_wpmailsmtp_debug_events"___________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: h7E2w_wpmailsmtp_debug_events]
+TABLE "h7E2w_wpmailsmtp_tasks_meta"_____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: h7E2w_wpmailsmtp_tasks_meta]
+TABLE "h7E2w_wpr_rocket_cache"__________________________[ROWS:      97] [EXTRACT|REPLACE] [INST NAME: h7E2w_wpr_rocket_cache]
+TABLE "h7E2w_wpr_rucss_used_css"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: h7E2w_wpr_rucss_used_css]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 10.5.21
+FILE SIZE:	dup-database__[HASH].sql (3.57MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1679714
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	3058
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "h7e2w_actionscheduler_actions"___________________[ROWS:   116]
+TABLE "h7e2w_actionscheduler_claims"____________________[ROWS:     0]
+TABLE "h7e2w_actionscheduler_groups"____________________[ROWS:     5]
+TABLE "h7e2w_actionscheduler_logs"______________________[ROWS:   342]
+TABLE "h7e2w_commentmeta"_______________________________[ROWS:     0]
+TABLE "h7e2w_comments"__________________________________[ROWS:     0]
+TABLE "h7e2w_duplicator_packages"_______________________[ROWS:     1]
+TABLE "h7e2w_links"_____________________________________[ROWS:     0]
+TABLE "h7e2w_options"___________________________________[ROWS:   439]
+TABLE "h7e2w_postmeta"__________________________________[ROWS:  1109]
+TABLE "h7e2w_posts"_____________________________________[ROWS:   433]
+TABLE "h7e2w_seopress_significant_keywords"_____________[ROWS:     0]
+TABLE "h7e2w_term_relationships"________________________[ROWS:    84]
+TABLE "h7e2w_term_taxonomy"_____________________________[ROWS:    29]
+TABLE "h7e2w_termmeta"__________________________________[ROWS:    18]
+TABLE "h7e2w_terms"_____________________________________[ROWS:    29]
+TABLE "h7e2w_usermeta"__________________________________[ROWS:    78]
+TABLE "h7e2w_users"_____________________________________[ROWS:     3]
+TABLE "h7e2w_wc_admin_note_actions"_____________________[ROWS:   102]
+TABLE "h7e2w_wc_admin_notes"____________________________[ROWS:    70]
+TABLE "h7e2w_wc_category_lookup"________________________[ROWS:     5]
+TABLE "h7e2w_wc_customer_lookup"________________________[ROWS:     0]
+TABLE "h7e2w_wc_download_log"___________________________[ROWS:     0]
+TABLE "h7e2w_wc_order_addresses"________________________[ROWS:     0]
+TABLE "h7e2w_wc_order_coupon_lookup"____________________[ROWS:     0]
+TABLE "h7e2w_wc_order_operational_data"_________________[ROWS:     0]
+TABLE "h7e2w_wc_order_product_lookup"___________________[ROWS:     0]
+TABLE "h7e2w_wc_order_stats"____________________________[ROWS:     0]
+TABLE "h7e2w_wc_order_tax_lookup"_______________________[ROWS:     0]
+TABLE "h7e2w_wc_orders"_________________________________[ROWS:     0]
+TABLE "h7e2w_wc_orders_meta"____________________________[ROWS:     0]
+TABLE "h7e2w_wc_product_attributes_lookup"______________[ROWS:     0]
+TABLE "h7e2w_wc_product_download_directories"___________[ROWS:     2]
+TABLE "h7e2w_wc_product_meta_lookup"____________________[ROWS:    27]
+TABLE "h7e2w_wc_rate_limits"____________________________[ROWS:     0]
+TABLE "h7e2w_wc_reserved_stock"_________________________[ROWS:     0]
+TABLE "h7e2w_wc_tax_rate_classes"_______________________[ROWS:     2]
+TABLE "h7e2w_wc_webhooks"_______________________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_api_keys"______________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_attribute_taxonomies"__________[ROWS:     0]
+TABLE "h7e2w_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "h7e2w_woocommerce_log"___________________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_order_itemmeta"________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_order_items"___________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_payment_tokenmeta"_____________[ROWS:     0]
+TABLE "h7e2w_woocommerce_payment_tokens"________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_sessions"______________________[ROWS:     1]
+TABLE "h7e2w_woocommerce_shipping_zone_locations"_______[ROWS:     0]
+TABLE "h7e2w_woocommerce_shipping_zone_methods"_________[ROWS:     0]
+TABLE "h7e2w_woocommerce_shipping_zones"________________[ROWS:     0]
+TABLE "h7e2w_woocommerce_tax_rate_locations"____________[ROWS:     0]
+TABLE "h7e2w_woocommerce_tax_rates"_____________________[ROWS:     0]
+TABLE "h7e2w_wpmailsmtp_debug_events"___________________[ROWS:     5]
+TABLE "h7e2w_wpmailsmtp_tasks_meta"_____________________[ROWS:     1]
+TABLE "h7e2w_wpr_rocket_cache"__________________________[ROWS:    97]
+TABLE "h7e2w_wpr_rucss_used_css"________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 7.7149 sec.
+STEP-2 COMPLETE @ 09:56:43 - RUNTIME: 7.7152 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/comtimvNbFn/comtim.vn/public_html REPLACE: C:/xampp/htdocs/wordpress64 [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: http://comtim.vn/wp-content/uploads REPLACE: http://localhost:8080/wordpress64/wp-content/uploads [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://comtim.vn REPLACE: http://localhost:8080/wordpress64 [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:10] SEARCH: http://comtim.vn/wp-content/mu-plugins REPLACE: http://localhost:8080/wordpress64/wp-content/mu-plugins [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 09:56:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = ]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 640M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [h7E2w_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    66]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "h7E2w_actionscheduler_actions"___________________[ROWS:   116][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_actionscheduler_actions][0]
+
+EVALUATE TABLE: "h7E2w_actionscheduler_claims"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_actionscheduler_groups"____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_actionscheduler_groups][0]
+
+EVALUATE TABLE: "h7E2w_actionscheduler_logs"______________________[ROWS:   342][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_actionscheduler_logs][0]
+
+EVALUATE TABLE: "h7E2w_commentmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_comments"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_duplicator_packages"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_links"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_options"___________________________________[ROWS:   373][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_options][0]
+
+EVALUATE TABLE: "h7E2w_postmeta"__________________________________[ROWS:  1109][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_postmeta][1]
+
+EVALUATE TABLE: "h7E2w_posts"_____________________________________[ROWS:   433][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_posts][0]
+
+EVALUATE TABLE: "h7E2w_seopress_significant_keywords"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_termmeta"__________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_termmeta][0]
+
+EVALUATE TABLE: "h7E2w_terms"_____________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_terms][0]
+
+EVALUATE TABLE: "h7E2w_term_relationships"________________________[ROWS:    84][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_term_taxonomy"_____________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_term_taxonomy][0]
+
+EVALUATE TABLE: "h7E2w_usermeta"__________________________________[ROWS:    78][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_usermeta][0]
+
+EVALUATE TABLE: "h7E2w_users"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_users][0]
+
+EVALUATE TABLE: "h7E2w_wc_admin_notes"____________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wc_admin_notes][0]
+
+EVALUATE TABLE: "h7E2w_wc_admin_note_actions"_____________________[ROWS:   102][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "h7E2w_wc_category_lookup"________________________[ROWS:     5][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_customer_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_download_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_orders"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_orders_meta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_order_addresses"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_order_coupon_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_order_operational_data"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_order_product_lookup"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_order_stats"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_order_tax_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_product_attributes_lookup"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_product_download_directories"___________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wc_product_download_directories][0]
+
+EVALUATE TABLE: "h7E2w_wc_product_meta_lookup"____________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "h7E2w_wc_rate_limits"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_reserved_stock"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wc_tax_rate_classes"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "h7E2w_wc_webhooks"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_api_keys"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_attribute_taxonomies"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_order_itemmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_order_items"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_payment_tokenmeta"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_payment_tokens"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_sessions"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_woocommerce_sessions][0]
+
+EVALUATE TABLE: "h7E2w_woocommerce_shipping_zones"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_shipping_zone_locations"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_shipping_zone_methods"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_tax_rates"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_woocommerce_tax_rate_locations"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "h7E2w_wpmailsmtp_debug_events"___________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wpmailsmtp_debug_events][0]
+
+EVALUATE TABLE: "h7E2w_wpmailsmtp_tasks_meta"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wpmailsmtp_tasks_meta][0]
+
+EVALUATE TABLE: "h7E2w_wpr_rocket_cache"__________________________[ROWS:    97][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[urlnd]  1:"http://comtim.vn/wp-content/uploads" =============> "http://localhost:8080/wordpress64/wp-content/uploads"
+	SEARCH[urlnd]  2:"http://comtim.vn/wp-content/mu-plugins" ==========> "http://localhost:8080/wordpress64/wp-content/mu-plugins"
+	SEARCH[path ]  3:"/home/comtimvNbFn/comtim.vn/public_html" =========> "C:/xampp/htdocs/wordpress64"
+	SEARCH[urlnd]  4:"https://comtim.vn" ===============================> "http://localhost:8080/wordpress64"
+	CHUNK ACTION: CURRENT [search_replace][h7E2w_wpr_rocket_cache][0]
+
+EVALUATE TABLE: "h7E2w_wpr_rucss_used_css"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:56 	|	 Rows:2842 	|	 Cells:23048 
+UPDATED:	Tables:9 	|	 Rows:590 	|	 Cells:618 
+ERRORS:		0 
+RUNTIME:	2.323100 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/wordpress64/wp-config.php
+New htaccess file created:C:/xampp/htdocs/wordpress64/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost:8080/wordpress64"
+	UPDATE DB_NAME ""wordpress64""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:56:46 - RUNTIME: 2.6099 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin WP Rocket disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] WP Rocket has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WP Rocket after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/wordpress64/index.php
+E_DEPRECATED Required parameter $data follows optional parameter $option
+	FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\includes\wpshapere.class.php[638]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\wpshapere.php[86]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-settings.php[473]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-config.php[79]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\wordpress64\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\wp_test_script_af7b79e-17094719.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Required parameter $menu_count follows optional parameter $admin_submenu_slug
+	FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\includes\wpsmenu.class.php[974]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\wpshapere.php[89]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-settings.php[473]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-config.php[79]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\wordpress64\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\wp_test_script_af7b79e-17094719.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/wordpress64/wp-login.php
+E_DEPRECATED Required parameter $data follows optional parameter $option
+	FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\includes\wpshapere.class.php[638]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\wpshapere.php[86]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-settings.php[473]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-config.php[79]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\wordpress64\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\wp_test_script_af7b79e-17094719.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Required parameter $menu_count follows optional parameter $admin_submenu_slug
+	FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\includes\wpsmenu.class.php[974]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\plugins\WPShapere\wpshapere.php[89]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\wordpress64\wp-settings.php[473]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-config.php[79]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\wordpress64\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\wordpress64\wp-content\wp_test_script_af7b79e-17094719.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[C:\xampp\htdocs\wordpress64\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.12094]  MESSAGE:END RENDER PAGE
